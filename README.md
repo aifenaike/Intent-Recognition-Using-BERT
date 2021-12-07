@@ -12,8 +12,9 @@ The training set contains 13,084 utterances, and separate validation and test se
 ## BERT
 For our intent recognition model, we'll use BERT, which is a transformer-based model that has been pre-trained on an enormous amount of English data. Through this pre-training, BERT learns to represent language very effectively, and can then be fine-tuned for a specific task. In our previous notebooks, we trained entire models end-to-end starting from random model weights, but with BERT, we will start with the pre-trained weights, and then do additional training to adapt BERT to our intent recognition task.
 
-To learn about BERT in more detail, you should watch this video. Don't worry if BERT's architecture feels too complex, the key things to takeaway are how it is pre-trained, and how we can fine-tune it for our application.
+To learn about BERT in more detail, you should watch this [video](https://www.youtube.com/watch?v=xI0HHN5XKDo).
+Don't worry if BERT's architecture feels too complex, the key things to takeaway are how it is pre-trained, and how we can fine-tune it for our application.
 
 Before BERT was introduced in 2018, most machine learning models for NLP were trained from scratch (like our previous models). Since then, huge success has been found in many NLP applications by fine-tuning pre-trained models like BERT instead. The other most well-known models that are used in this way are the GPT models (GPT, GPT2, GPT3, and GPT Neo).
 
-We'll use a fantastic package called Hugging Face for our BERT model. Hugging Face has tons of pre-trained BERT models for different applications, among many other great models and datasets. Specifically, we'll be using the BERT Base Uncased model, which contains 110M parameters, and is pre-trained on both the BookCorpus (800M words) and on English Wikipedia (2,500M words).
+We'll use a fantastic package called [Hugging Face](https://huggingface.co/) for our BERT model. Hugging Face has tons of pre-trained BERT models for different applications, among many other great models and datasets. Specifically, we'll be using the [BERT Base Uncased model](https://huggingface.co/bert-base-uncased), which contains 110M parameters, and is pre-trained on both the BookCorpus (800M words) and on English Wikipedia (2,500M words).
