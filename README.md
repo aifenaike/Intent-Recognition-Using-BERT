@@ -10,7 +10,7 @@ The training set contains 13,084 utterances, and separate validation and test se
 
 
 ## BERT
-For our intent recognition model, we'll use BERT, which is a transformer-based model that has been pre-trained on an enormous amount of English data. Through this pre-training, BERT learns to represent language very effectively, and can then be fine-tuned for a specific task. In our previous notebooks, we trained entire models end-to-end starting from random model weights, but with BERT, we will start with the pre-trained weights, and then do additional training to adapt BERT to our intent recognition task.
+For our intent recognition model, we'll use BERT, which is a transformer-based model that has been pre-trained on an enormous amount of English data. Through this pre-training, BERT learns to represent language very effectively, and can then be fine-tuned for a specific task. It is possible to train an entire model end-to-end starting from random model weights, but with BERT, we will start with the pre-trained weights, and then do additional training to adapt BERT to our intent recognition task.
 
 To learn about BERT in more detail, you should watch this [video](https://www.youtube.com/watch?v=xI0HHN5XKDo).
 Don't worry if BERT's architecture feels too complex, the key things to takeaway are how it is pre-trained, and how we can fine-tune it for our application.
