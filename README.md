@@ -15,6 +15,6 @@ For our intent recognition model, we'll use BERT, which is a transformer-based m
 To learn about BERT in more detail, you should watch this [video](https://www.youtube.com/watch?v=xI0HHN5XKDo).
 Don't worry if BERT's architecture feels too complex, the key things to takeaway are how it is pre-trained, and how we can fine-tune it for our application.
 
-Before BERT was introduced in 2018, most machine learning models for NLP were trained from scratch (like our previous models). Since then, huge success has been found in many NLP applications by fine-tuning pre-trained models like BERT instead. The other most well-known models that are used in this way are the GPT models (GPT, GPT2, GPT3, and GPT Neo).
+Before BERT was introduced in 2018, most machine learning models for NLP were trained from scratch. Since then, huge success has been found in many NLP applications by fine-tuning pre-trained models like BERT instead. The other most well-known models that are used in this way are the GPT models (GPT, GPT2, GPT3, and GPT Neo).
 
 We'll use a fantastic package called [Hugging Face](https://huggingface.co/) for our BERT model. Hugging Face has tons of pre-trained BERT models for different applications, among many other great models and datasets. Specifically, we'll be using the [BERT Base Uncased model](https://huggingface.co/bert-base-uncased), which contains 110M parameters, and is pre-trained on both the BookCorpus (800M words) and on English Wikipedia (2,500M words).
